@@ -72,6 +72,12 @@ form .buttons {
     transition: all 0.3s ease;
 }
 
+.buttons input[value="="] {
+    width: 97%;
+    margin: 4px 0;
+}
+
+
 .buttons input[type="button"]:focus {
     color: #3498db;
     transform: scale(0.9);
@@ -79,8 +85,3 @@ form .buttons {
                 inset 2px 2px 5px rgba(94,104,121,0.288);
 }
 
-.inform {
-    font-style: italic;
-    color: #595959;
-    align-self: start;
-}

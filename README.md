@@ -15,5 +15,5 @@ Projeto calculadora ([conteúdo de referência](https://www.youtube.com/watch?v=
 
 ## ⚙ Settings
 * Para executar o projeto basta rodar o arquivo index em algum browser
-* Ou acessar: https://pabloxt14.github.io/Landing-Page/
+* Ou acessar: https://pabloxt14.github.io/Calculator-Project/
 * Obs: a página está responsiva, então pode executá-la até mesmo no celular

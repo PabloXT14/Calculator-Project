@@ -19,7 +19,19 @@ function calculate() {
     */
 }
 
-const btn = form.veql;
+
+/* Clear Display */
+const btn = form.clear;
+//Clear All display
 btn.addEventListener("dblclick", ()=> {
     form.disp.value = "";
 });
+//Clear last string
+btn.addEventListener("click", ()=> {
+    /* replace() para limpar ultima char de uma string
+    - O caractere "$" é usado para corresponder ao final da entrada.
+    - O “.” é usado para corresponder a um único caractere.
+    - Portanto, a expressão regular /.$/ pode ser usada para obter o último caractere de uma string.
+    */
+   form.disp.value = form.disp.value.replace(/.$/, "");
+})
